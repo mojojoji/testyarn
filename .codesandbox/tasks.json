@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "build": {
+      "name": "Run",
+      "command": "yarn start"
+    }
+  },
+  "setupTasks": [
+    {
+      "name": "Installing Dependencies",
+      "command": "yarn"
+    }
+  ]
+}
